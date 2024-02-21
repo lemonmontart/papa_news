@@ -59,7 +59,8 @@ def save_if_allowed_domain(item, srcText, allowed_domains):
 # 뉴스 크롤링 및 저장 뷰 함수
 def index(request):
     keywords = ['농식품 시장', '유통 스타트업', '식자재 시장', '기업형 슈퍼마켓',
-                '개인 슈퍼마켓', 'K-푸드', '지방 소멸', '몽골 시장']
+                '개인 슈퍼마켓', 'K-푸드', '지방 소멸', '몽골 시장', 
+                '스타트업 투자', 'VC', 'CVC']
     allowed_domains = ['aflnews.co.kr', 'amnews.co.kr', 'hankyung.com',
                        'mk.co.kr', 'chosun.com', 'joongang.co.kr', 'donga.com',
                        'yna.co.kr', 'thebell.co.kr']

@@ -1,0 +1,1200 @@
+*** Starting uWSGI 2.0.23 (64bit) on [Tue Feb  6 04:47:15 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/papa_news
+writing pidfile to /tmp/project-master.pid
+detected binary path: /home/ubuntu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/papa_news/uwsgi.sock fd 3
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55f29c69c7d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named 'news.wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2343)
+spawned uWSGI worker 1 (pid: 2344, cores: 1)
+*** Starting uWSGI 2.0.23 (64bit) on [Tue Feb  6 07:34:46 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setuid() to 1001
+chdir() to /home/ubuntu/papa_news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/papa_news/papa_news.sock fd 4
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x559d72febfe0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named 'news.wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31616)
+spawned uWSGI worker 1 (pid: 31617, cores: 1)
+spawned uWSGI worker 2 (pid: 31618, cores: 1)
+spawned uWSGI worker 3 (pid: 31619, cores: 1)
+spawned uWSGI worker 4 (pid: 31620, cores: 1)
+spawned uWSGI worker 5 (pid: 31621, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ubuntu/papa_news/papa_news.sock removed.
+*** Starting uWSGI 2.0.23 (64bit) on [Tue Feb  6 07:56:13 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setuid() to 1001
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/papa_news/news.sock fd 4
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x560dc8e961c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x560dc8e961c0 pid: 31817 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31817)
+spawned uWSGI worker 1 (pid: 31819, cores: 1)
+spawned uWSGI worker 2 (pid: 31820, cores: 1)
+spawned uWSGI worker 3 (pid: 31821, cores: 1)
+spawned uWSGI worker 4 (pid: 31822, cores: 1)
+spawned uWSGI worker 5 (pid: 31823, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ubuntu/papa_news/news.sock removed.
+*** Starting uWSGI 2.0.23 (64bit) on [Tue Feb  6 08:18:55 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setuid() to 1001
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/papa_news/news.sock fd 4
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5570c98951c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5570c98951c0 pid: 31906 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31906)
+spawned uWSGI worker 1 (pid: 31908, cores: 1)
+spawned uWSGI worker 2 (pid: 31909, cores: 1)
+spawned uWSGI worker 3 (pid: 31910, cores: 1)
+spawned uWSGI worker 4 (pid: 31911, cores: 1)
+spawned uWSGI worker 5 (pid: 31912, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 5 buried after 1 seconds
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ubuntu/papa_news/news.sock removed.
+*** Starting uWSGI 2.0.23 (64bit) on [Tue Feb  6 08:35:52 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setuid() to 1001
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/papa_news/news.sock fd 4
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55bd237331c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55bd237331c0 pid: 32040 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32040)
+spawned uWSGI worker 1 (pid: 32042, cores: 1)
+spawned uWSGI worker 2 (pid: 32043, cores: 1)
+spawned uWSGI worker 3 (pid: 32044, cores: 1)
+spawned uWSGI worker 4 (pid: 32045, cores: 1)
+spawned uWSGI worker 5 (pid: 32046, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ubuntu/papa_news/news.sock removed.
+*** Starting uWSGI 2.0.23 (64bit) on [Tue Feb  6 08:47:57 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/papa_news/news.sock fd 4
+setuid() to 1001
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55fa735e2020
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55fa735e2020 pid: 32309 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32309)
+spawned uWSGI worker 1 (pid: 32311, cores: 1)
+spawned uWSGI worker 2 (pid: 32312, cores: 1)
+spawned uWSGI worker 3 (pid: 32313, cores: 1)
+spawned uWSGI worker 4 (pid: 32314, cores: 1)
+spawned uWSGI worker 5 (pid: 32315, cores: 1)
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 00:47:24 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/papa_news
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+chown(): Operation not permitted [core/utils.c line 2657]
+VACUUM WARNING: unix socket /home/ubuntu/papa_news/news.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 04:06:43 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/papa_news
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+chown(): Operation not permitted [core/utils.c line 2657]
+VACUUM WARNING: unix socket /home/ubuntu/papa_news/news.sock changed inode. Skip removal
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM WARNING: unix socket /home/ubuntu/papa_news/news.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 04:10:32 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/papa_news/news.sock fd 4
+setuid() to 1001
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55fd7e50b000
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named 'news.news'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 36935)
+spawned uWSGI worker 1 (pid: 36936, cores: 1)
+spawned uWSGI worker 2 (pid: 36937, cores: 1)
+spawned uWSGI worker 3 (pid: 36938, cores: 1)
+spawned uWSGI worker 4 (pid: 36939, cores: 1)
+spawned uWSGI worker 5 (pid: 36940, cores: 1)
+...brutally killing workers...
+worker 1 buried after 0 seconds
+worker 2 buried after 0 seconds
+worker 3 buried after 0 seconds
+worker 4 buried after 0 seconds
+worker 5 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 4 mapped to socket 0 (/home/ubuntu/papa_news/news.sock)
+running /home/ubuntu/papa_news/myvenv/bin/uwsgi
+[uWSGI] getting INI configuration from /home/ubuntu/papa_news/uwsgi.ini
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 04:44:59 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/ubuntu/papa_news/news.sock fd 4
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55c7f91d50f0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55c7f91d50f0 pid: 36935 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 36935)
+sendmsg(): Transport endpoint is already connected [core/notify.c line 39]
+spawned uWSGI worker 1 (pid: 37112, cores: 1)
+spawned uWSGI worker 2 (pid: 37113, cores: 1)
+spawned uWSGI worker 3 (pid: 37114, cores: 1)
+spawned uWSGI worker 4 (pid: 37115, cores: 1)
+spawned uWSGI worker 5 (pid: 37116, cores: 1)
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 04:45:07 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/papa_news
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+chown(): Operation not permitted [core/utils.c line 2657]
+VACUUM WARNING: unix socket /home/ubuntu/papa_news/news.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 04:45:39 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+chown(): Operation not permitted [core/utils.c line 2657]
+VACUUM WARNING: unix socket /home/ubuntu/papa_news/news.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 04:46:07 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/papa_news
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+chown(): Operation not permitted [core/utils.c line 2657]
+VACUUM WARNING: unix socket /home/ubuntu/papa_news/news.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 05:14:56 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/papa_news/myvenv/bin
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+chown(): Operation not permitted [core/utils.c line 2657]
+VACUUM WARNING: unix socket /home/ubuntu/papa_news/news.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 05:21:49 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/papa_news/news.sock fd 3
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55f9741d4cb0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55f9741d4cb0 pid: 37196 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 37196)
+spawned uWSGI worker 1 (pid: 37197, cores: 1)
+spawned uWSGI worker 2 (pid: 37198, cores: 1)
+spawned uWSGI worker 3 (pid: 37199, cores: 1)
+spawned uWSGI worker 4 (pid: 37200, cores: 1)
+spawned uWSGI worker 5 (pid: 37201, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ubuntu/papa_news/news.sock removed.
+...brutally killing workers...
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/papa_news
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/ubuntu/papa_news/uwsgi.sock)
+running /home/ubuntu/.local/bin/uwsgi
+execvp(): No such file or directory [core/master_utils.c line 555]
+VACUUM: pidfile removed.
+unlink(): No such file or directory [core/uwsgi.c line 1665]
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 4 mapped to socket 0 (/home/ubuntu/papa_news/news.sock)
+running /home/ubuntu/papa_news/myvenv/bin/uwsgi
+[uWSGI] getting INI configuration from /home/ubuntu/papa_news/uwsgi.ini
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 14:25:15 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/ubuntu/papa_news/news.sock fd 4
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5558e71192b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5558e71192b0 pid: 36935 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 36935)
+sendmsg(): Transport endpoint is already connected [core/notify.c line 39]
+spawned uWSGI worker 1 (pid: 37206, cores: 1)
+spawned uWSGI worker 2 (pid: 37207, cores: 1)
+spawned uWSGI worker 3 (pid: 37208, cores: 1)
+spawned uWSGI worker 4 (pid: 37209, cores: 1)
+spawned uWSGI worker 5 (pid: 37210, cores: 1)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 4 mapped to socket 0 (/home/ubuntu/papa_news/news.sock)
+running /home/ubuntu/papa_news/myvenv/bin/uwsgi
+[uWSGI] getting INI configuration from /home/ubuntu/papa_news/uwsgi.ini
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 14:26:40 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/ubuntu/papa_news/news.sock fd 4
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55692f55f2b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55692f55f2b0 pid: 36935 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 36935)
+sendmsg(): Transport endpoint is already connected [core/notify.c line 39]
+spawned uWSGI worker 1 (pid: 37220, cores: 1)
+spawned uWSGI worker 2 (pid: 37221, cores: 1)
+spawned uWSGI worker 3 (pid: 37222, cores: 1)
+spawned uWSGI worker 4 (pid: 37223, cores: 1)
+spawned uWSGI worker 5 (pid: 37224, cores: 1)
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 05:27:13 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/papa_news/news.sock fd 3
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55e493506cb0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55e493506cb0 pid: 37225 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 37225)
+spawned uWSGI worker 1 (pid: 37226, cores: 1)
+spawned uWSGI worker 2 (pid: 37227, cores: 1)
+spawned uWSGI worker 3 (pid: 37228, cores: 1)
+spawned uWSGI worker 4 (pid: 37229, cores: 1)
+spawned uWSGI worker 5 (pid: 37230, cores: 1)
+Gracefully killing worker 5 (pid: 37230)...
+Gracefully killing worker 2 (pid: 37227)...
+Gracefully killing worker 1 (pid: 37226)...
+...gracefully killing workers...
+Gracefully killing worker 3 (pid: 37228)...
+Gracefully killing worker 4 (pid: 37229)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/ubuntu/papa_news/news.sock)
+running /home/ubuntu/papa_news/myvenv/bin/uwsgi
+[uWSGI] getting INI configuration from /home/ubuntu/papa_news/uwsgi.ini
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 14:27:29 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/ubuntu/papa_news/news.sock fd 3
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55d00df95c40
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55d00df95c40 pid: 37225 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 37225)
+spawned uWSGI worker 1 (pid: 37231, cores: 1)
+spawned uWSGI worker 2 (pid: 37232, cores: 1)
+spawned uWSGI worker 3 (pid: 37233, cores: 1)
+spawned uWSGI worker 4 (pid: 37234, cores: 1)
+spawned uWSGI worker 5 (pid: 37235, cores: 1)
+...brutally killing workers...
+Gracefully killing worker 5 (pid: 37235)...
+worker 5 buried after 0 seconds
+Gracefully killing worker 1 (pid: 37231)...
+worker 1 buried after 2 seconds
+SIGINT/SIGTERM received...killing workers...
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/ubuntu/papa_news/news.sock)
+running /home/ubuntu/papa_news/myvenv/bin/uwsgi
+[uWSGI] getting INI configuration from /home/ubuntu/papa_news/uwsgi.ini
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 14:29:34 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/ubuntu/papa_news/news.sock fd 3
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ac252cbc40
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 4 buried after 3 seconds
+goodbye to uWSGI.
+VACUUM WARNING: unix socket /home/ubuntu/papa_news/news.sock changed inode. Skip removal
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x55ac252cbc40 pid: 37225 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 37225)
+spawned uWSGI worker 1 (pid: 37373, cores: 1)
+spawned uWSGI worker 2 (pid: 37374, cores: 1)
+spawned uWSGI worker 3 (pid: 37375, cores: 1)
+spawned uWSGI worker 4 (pid: 37376, cores: 1)
+spawned uWSGI worker 5 (pid: 37377, cores: 1)
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 05:31:57 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1049-oracle #55-Ubuntu SMP Mon Nov 20 19:51:53 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setuid() to 1001
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/papa_news/news.sock fd 4
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55a0330451a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 7 seconds on interpreter 0x55a0330451a0 pid: 845 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 845)
+spawned uWSGI worker 1 (pid: 998, cores: 1)
+spawned uWSGI worker 2 (pid: 999, cores: 1)
+spawned uWSGI worker 3 (pid: 1000, cores: 1)
+spawned uWSGI worker 4 (pid: 1001, cores: 1)
+spawned uWSGI worker 5 (pid: 1002, cores: 1)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 3 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 4 mapped to socket 0 (/home/ubuntu/papa_news/news.sock)
+running /home/ubuntu/papa_news/myvenv/bin/uwsgi
+[uWSGI] getting INI configuration from /home/ubuntu/papa_news/uwsgi.ini
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 14:35:58 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1049-oracle #55-Ubuntu SMP Mon Nov 20 19:51:53 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/ubuntu/papa_news/news.sock fd 4
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5566b97642b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5566b97642b0 pid: 845 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 845)
+sendmsg(): Transport endpoint is already connected [core/notify.c line 39]
+spawned uWSGI worker 1 (pid: 1325, cores: 1)
+spawned uWSGI worker 2 (pid: 1326, cores: 1)
+spawned uWSGI worker 3 (pid: 1327, cores: 1)
+spawned uWSGI worker 4 (pid: 1328, cores: 1)
+spawned uWSGI worker 5 (pid: 1329, cores: 1)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 4 mapped to socket 0 (/home/ubuntu/papa_news/news.sock)
+running /home/ubuntu/papa_news/myvenv/bin/uwsgi
+[uWSGI] getting INI configuration from /home/ubuntu/papa_news/uwsgi.ini
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 14:36:20 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1049-oracle #55-Ubuntu SMP Mon Nov 20 19:51:53 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/ubuntu/papa_news/news.sock fd 4
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5577c844b2b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5577c844b2b0 pid: 845 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 845)
+sendmsg(): Transport endpoint is already connected [core/notify.c line 39]
+spawned uWSGI worker 1 (pid: 1331, cores: 1)
+spawned uWSGI worker 2 (pid: 1332, cores: 1)
+spawned uWSGI worker 3 (pid: 1333, cores: 1)
+spawned uWSGI worker 4 (pid: 1334, cores: 1)
+spawned uWSGI worker 5 (pid: 1335, cores: 1)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 4 mapped to socket 0 (/home/ubuntu/papa_news/news.sock)
+running /home/ubuntu/papa_news/myvenv/bin/uwsgi
+[uWSGI] getting INI configuration from /home/ubuntu/papa_news/uwsgi.ini
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 14:37:19 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1049-oracle #55-Ubuntu SMP Mon Nov 20 19:51:53 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/ubuntu/papa_news/news.sock fd 4
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x555d929142b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x555d929142b0 pid: 845 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 845)
+sendmsg(): Transport endpoint is already connected [core/notify.c line 39]
+spawned uWSGI worker 1 (pid: 1343, cores: 1)
+spawned uWSGI worker 2 (pid: 1344, cores: 1)
+spawned uWSGI worker 3 (pid: 1345, cores: 1)
+spawned uWSGI worker 4 (pid: 1346, cores: 1)
+spawned uWSGI worker 5 (pid: 1347, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM WARNING: unix socket /home/ubuntu/papa_news/news.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 05:40:13 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1049-oracle #55-Ubuntu SMP Mon Nov 20 19:51:53 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/papa_news/news.sock fd 3
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x562c7a2adcd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x562c7a2adcd0 pid: 1394 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1394)
+spawned uWSGI worker 1 (pid: 1395, cores: 1)
+spawned uWSGI worker 2 (pid: 1396, cores: 1)
+spawned uWSGI worker 3 (pid: 1397, cores: 1)
+spawned uWSGI worker 4 (pid: 1398, cores: 1)
+spawned uWSGI worker 5 (pid: 1399, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ubuntu/papa_news/news.sock removed.
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 05:49:20 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1049-oracle #55-Ubuntu SMP Mon Nov 20 19:51:53 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/papa_news
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/papa_news/news.sock fd 3
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x557f76e66ca0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x557f76e66ca0 pid: 1419 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1419)
+spawned uWSGI worker 1 (pid: 1420, cores: 1)
+spawned uWSGI worker 2 (pid: 1421, cores: 1)
+spawned uWSGI worker 3 (pid: 1422, cores: 1)
+spawned uWSGI worker 4 (pid: 1423, cores: 1)
+spawned uWSGI worker 5 (pid: 1424, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 2 seconds
+worker 5 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ubuntu/papa_news/news.sock removed.
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 06:03:55 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1049-oracle #55-Ubuntu SMP Mon Nov 20 19:51:53 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/papa_news
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/papa_news/news.sock fd 3
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55913ee2dcb0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55913ee2dcb0 pid: 1457 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1457)
+spawned uWSGI worker 1 (pid: 1458, cores: 1)
+spawned uWSGI worker 2 (pid: 1459, cores: 1)
+spawned uWSGI worker 3 (pid: 1460, cores: 1)
+spawned uWSGI worker 4 (pid: 1461, cores: 1)
+spawned uWSGI worker 5 (pid: 1462, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ubuntu/papa_news/news.sock removed.
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 06:13:54 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1049-oracle #55-Ubuntu SMP Mon Nov 20 19:51:53 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setuid() to 1001
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/papa_news/news.sock fd 4
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x556095f6c1a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x556095f6c1a0 pid: 1479 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1479)
+spawned uWSGI worker 1 (pid: 1480, cores: 1)
+spawned uWSGI worker 2 (pid: 1481, cores: 1)
+spawned uWSGI worker 3 (pid: 1482, cores: 1)
+spawned uWSGI worker 4 (pid: 1483, cores: 1)
+spawned uWSGI worker 5 (pid: 1484, cores: 1)
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 06:14:46 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1049-oracle #55-Ubuntu SMP Mon Nov 20 19:51:53 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/papa_news
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/papa_news/news.sock fd 3
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x564c3d22bca0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x564c3d22bca0 pid: 1501 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1501)
+spawned uWSGI worker 1 (pid: 1502, cores: 1)
+spawned uWSGI worker 2 (pid: 1503, cores: 1)
+spawned uWSGI worker 3 (pid: 1504, cores: 1)
+spawned uWSGI worker 4 (pid: 1505, cores: 1)
+spawned uWSGI worker 5 (pid: 1506, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ubuntu/papa_news/news.sock removed.
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+goodbye to uWSGI.
+unlink(): No such file or directory [core/uwsgi.c line 1665]
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 06:23:27 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1049-oracle #55-Ubuntu SMP Mon Nov 20 19:51:53 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setuid() to 1001
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/papa_news/news.sock fd 4
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x560506ec5260
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x560506ec5260 pid: 1548 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1548)
+spawned uWSGI worker 1 (pid: 1550, cores: 1)
+spawned uWSGI worker 2 (pid: 1551, cores: 1)
+spawned uWSGI worker 3 (pid: 1552, cores: 1)
+spawned uWSGI worker 4 (pid: 1553, cores: 1)
+spawned uWSGI worker 5 (pid: 1554, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 3 buried after 1 seconds
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ubuntu/papa_news/news.sock removed.
+*** Starting uWSGI 2.0.23 (64bit) on [Wed Feb  7 06:27:05 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1049-oracle #55-Ubuntu SMP Mon Nov 20 19:51:53 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /home/ubuntu/papa_news/myvenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setuid() to 1001
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/papa_news/news.sock fd 4
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+PEP 405 virtualenv detected: /home/ubuntu/papa_news/myvenv
+Set PythonHome to /home/ubuntu/papa_news/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55a918e01260
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55a918e01260 pid: 1585 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1585)
+spawned uWSGI worker 1 (pid: 1587, cores: 1)
+spawned uWSGI worker 2 (pid: 1588, cores: 1)
+spawned uWSGI worker 3 (pid: 1589, cores: 1)
+spawned uWSGI worker 4 (pid: 1590, cores: 1)
+spawned uWSGI worker 5 (pid: 1591, cores: 1)

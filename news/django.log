@@ -1,0 +1,41 @@
+*** Starting uWSGI 2.0.23 (64bit) on [Tue Feb  6 06:07:47 2024] ***
+compiled with version: 11.4.0 on 06 February 2024 04:25:18
+os: Linux-5.15.0-1045-oracle #51-Ubuntu SMP Fri Sep 22 10:55:32 UTC 2023
+nodename: instance-20240205-1700
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/papa_news
+writing pidfile to /tmp/project-master.pid
+detected binary path: /home/ubuntu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/papa_news/news
+your processes number limit is 3511
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/papa_news/news/uwsgi.sock fd 3
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55d63c0b3970
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named '/news'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3796)
+spawned uWSGI worker 1 (pid: 3797, cores: 1)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/papa_news
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/ubuntu/papa_news/news/uwsgi.sock)
+running /home/ubuntu/.local/bin/uwsgi
+execvp(): No such file or directory [core/master_utils.c line 555]
+unlink(): No such file or directory [core/uwsgi.c line 1620]
+unlink(): No such file or directory [core/uwsgi.c line 1665]
